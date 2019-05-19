@@ -1,0 +1,24 @@
+{
+  "name": "block-chain",
+  "version": "1.0.0",
+  "description": "A crypto-currency project",
+  "main": "index.js",
+  "scripts": {
+    "test": " jest --watchAll",
+    "dev-test": "nodemon dev-test",
+    "start": "node ./app",
+    "dev": "nodemon ./app"
+  },
+  "author": "kopal",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.7.1",
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.4",
+    "ws": "^7.0.0"
+  }
+}
